@@ -1,0 +1,121 @@
+@media only  screen and (max-width: 768px) {
+
+	.about .content{
+		font-size: 34px;
+		text-align: center;
+	}
+
+	.about p{
+		width: 100%;
+		text-align: center;
+		font-size: 26px;
+	}
+	.about .wrap{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.about .item{
+		margin: auto;
+		width: 100%;
+	}
+
+	.about img{
+		border-radius: 0;
+		width: 100%;
+		/* margin: 20px 20px; */
+	}
+	.wrap{
+		width: 100%;
+		display: inline-block;
+	}
+	.products .pic{
+		width: 100%;
+	}
+	.products .text{
+		display: none;
+	}
+	.products2 .pic{
+		width: 100%;
+	}
+	.products2 .text{
+		display: none;
+	}
+
+
+	.service{
+		width: 100%;
+	}
+	.service > h2{
+		width: 100%;
+		font-size: 34px;
+		text-align: center;
+	}
+	.service > p{
+		width: 100%;
+	}
+	.service .wrap{
+		width: 100%;
+		display: inline-block;
+		padding: 10px 10px;
+	}
+	.service .item{
+		margin: auto;
+		padding: 20px 10px;
+	}
+
+
+	.contact .container{
+		display: block;
+	}
+	.contact .map{
+		width: 100%;
+	}
+
+	.contact_us{
+		width: 100%;
+	}
+	/* .btn_submit{
+		margin: auto;
+	} */
+
+}
+
+@media screen and (min-width: 768px){
+	.menu_btn{
+		display: none;
+	}
+	.header{
+		display: flex;
+		justify-content: space-between;
+		background-color: #00FF7F;
+		align-items: center;
+	}
+	.logo{
+		
+	}
+	nav{
+		display: flex;
+		position: relative;
+		left: 0;
+		width: auto;
+		height: auto;
+		top: 0;
+		background-color: transparent;
+	}
+	nav a{
+		border-bottom: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	nav{
+	    width: 80%;
+	    height: calc(100vh - 550px);
+	    background-color: #fcc;
+	    position: absolute;
+	    top: 50px;
+	    left: -100%;
+	    transition: .5s;
+	}
+}
