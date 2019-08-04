@@ -33,7 +33,7 @@
 
 .header{
     height: 50px;
-    background-color: #00FF7F;
+    background-color: #000;
     position: relative;
 }
 .logo{
@@ -150,7 +150,7 @@ nav a{
 .about  h2{
 /*	width: 100%;*/
 	text-align: center;
-	font-size: 42px;
+	font-size: 26px;
 	padding: 20px 0;
 }
 
@@ -182,7 +182,7 @@ nav a{
 }
 
 .products2{
-	background-color: #3CB371;
+	background-color: #40E0D0;
 }
 
 .products2 .wrap{
@@ -208,7 +208,7 @@ nav a{
 
 .service{
 	padding: 40px 0;
-	background-color: #EEE8AA;
+	background-color: #D3D3D3;
 }
 
 .service > h2{

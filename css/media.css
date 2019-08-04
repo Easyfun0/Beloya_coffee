@@ -88,7 +88,7 @@
 	.header{
 		display: flex;
 		justify-content: space-between;
-		background-color: #00FF7F;
+		background-color: #000;
 		align-items: center;
 	}
 	.logo{
