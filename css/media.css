@@ -25,21 +25,43 @@
 		width: 100%;
 		/* margin: 20px 20px; */
 	}
-	.wrap{
+	.content_pro{
 		width: 100%;
 		display: inline-block;
+		/* padding-bottom: 100px; */
 	}
-	.products .pic{
+
+	.products img{
 		width: 100%;
+		height: auto;
+		display: block;
+		transition: all 0.6s;
+	}
+
+	.box:hover img {
+		opacity: 0;
+}
+	.products .box:hover .text{
+		position: absolute;
+		padding: 0;
+		top:0;
+		bottom: 0;
+		display: flex;
 	}
 	.products .text{
 		display: none;
 	}
-	.products2 .pic{
-		width: 100%;
+
+	.products2 .box:hover .text{
+		position: absolute;
+		padding: 0;
+		top:0;
+		bottom: 0;
+		display: flex;
 	}
 	.products2 .text{
 		display: none;
+		
 	}
 
 
@@ -91,9 +113,7 @@
 		background-color: #000;
 		align-items: center;
 	}
-	.logo{
-		
-	}
+
 	nav{
 		display: flex;
 		position: relative;
@@ -111,8 +131,8 @@
 @media screen and (max-width: 767px) {
 	nav{
 	    width: 80%;
-	    height: calc(100vh - 550px);
-	    background-color: #fcc;
+	    height: calc(100vh - 50px);
+	    background-color:  rgba(255, 255, 255, 0.6);
 	    position: absolute;
 	    top: 50px;
 	    left: -100%;

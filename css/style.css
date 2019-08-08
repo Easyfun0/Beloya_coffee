@@ -7,11 +7,11 @@
 .menu_btn{
     width: 40px;
     height: 20px;
-    background-color: #7FFFD4;
+    background-color:#fff;
     display: block;
     top: 5px;
     right: 10px;
-    position: absolute;
+	position: absolute;
 }
 
 .menu_btn span{
@@ -54,8 +54,8 @@
 
 nav{
     width: 80%;
-    height: calc(100vh - 550px);
-    background-color: #fcc;
+    height: calc(100vh - 50px);
+    background-color: #000;
     position: absolute;
     top: 50px;
     left: -100%;
@@ -142,6 +142,14 @@ nav a{
 	padding: 0 0 40px;
 	text-align: center;
 }
+.about > h3{
+	text-align: center;
+	font-size: 36px;
+	padding: 10px 0;
+}
+.about > p{
+	text-align: center;
+}
 
 .about img{
 	/* height: 50px; */
@@ -154,22 +162,27 @@ nav a{
 	padding: 20px 0;
 }
 
-.wrap_color{
-    background-color: #CCFF99;
-}
-.products{
-	background-color: #FFDEAD;
+.content_pro{
+	width: 960px;
+	margin: auto;
 }
 
-.products .wrap{
+.content_pro h2{
+	text-align: center;
+	font-size: 46px;
+	padding: 10px 10px;
+}
+
+.products .box{
 	display: flex;
+	position: relative;
 }
 
 .products .item{
 	width: 100%;
 }
 
-.products .item img{
+.products img{
 	width: 100%;
 }
 
@@ -181,21 +194,18 @@ nav a{
 	text-align: center;
 }
 
-.products2{
-	background-color: #40E0D0;
-}
-
-.products2 .wrap{
+.products2 .box{
 	display: flex;
+	position: relative;
 }
 
 .products2 .item{
-	width: 50%;
+	width: 100%;
 }
 
-.products2 .item img{
+.products2 img{
 	width: 100%;
-	vertical-align: bottom;
+
 }
 
 .products2 .text{
@@ -204,8 +214,11 @@ nav a{
 	justify-content: center; 
 	padding: 10px 20px;
 	text-align: center;
+	position: relative;
 }
-
+.wrap #hovText{
+	display: none;
+}
 .service{
 	padding: 40px 0;
 	background-color: #D3D3D3;
