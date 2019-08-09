@@ -1,4 +1,6 @@
-
+h2,h3{
+	font-family: 'Ma Shan Zheng', cursive;
+}
 #menu_control{
     position: absolute;
     z-index: -2;
@@ -59,14 +61,16 @@ nav{
     position: absolute;
     top: 50px;
     left: -100%;
-    transition: .5s;
+	transition: .5s;
+	
 }
 nav a{
     display: block;
     text-decoration: none;
     color: cornflowerblue;
     padding: 10px 20px;
-    border-bottom: 1px solid #003377;
+	border-bottom: 1px solid #003377;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 #menu_control:checked ~ .header nav{
